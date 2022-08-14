@@ -1,0 +1,34 @@
+.idea
+.vscode
+
+# outputs
+build/
+dist/
+.coverage/
+
+# node
+node_modules/
+
+# log files
+*.log
+
+# temporary folders
+tmp/
+**/temp/
+**/.cache/
+**/.temp/
+
+# macos
+**/.DS_Store
+
+# dotenv
+.env
+.env.*
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
